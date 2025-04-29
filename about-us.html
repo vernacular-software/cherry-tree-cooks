@@ -58,14 +58,32 @@
 
         <section id="contact-us">
             <h2>Contact us</h2>
-            Phone, Email
-            Form
+            <dl>
+              <dt>Phone</dt>
+              <dd><a href="tel:+61449291145">0449 291 145</a></dd>
+              <dt>Email</dt>
+              <dd><a href="mailto:info@cherrytreecooks.com">info@cherrytreecooks.com</a></dd>
+            </dl>
+            <form name="contact" method="POST" data-netlify="true">
+              <p>
+                <label>Your Name: <input type="text" name="name" required /></label>
+              </p>
+              <p>
+                <label>Your Email: <input type="email" name="email" required /></label>
+              </p>
+              <p>
+                <label>Message: <textarea name="message"></textarea></label>
+              </p>
+              <p>
+                <button type="submit">Send</button>
+              </p>
+            </form>
         </section>
 
     </main>
     <footer>
-      Email:
-      Instagram: https://www.instagram.com/cherrytreecooks
+      <a href="mailto:info@cherrytreecooks.com">Email</a>
+      <a href="https://www.instagram.com/cherrytreecooks">Instagram</a>
     </footer>
   </body>
 </html>
