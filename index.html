@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cherry Tree Cooks - a haven for Inclusive Cooking Education</title>
     <meta name="description" content="Cherry Tree is a family-run business with a noble mission to teach people with autism and intellectual disabilities how to cook in a safe, supportive, and kind environment.">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="/styles/index.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌳</text></svg>">
   </head>
   <body>
     <header>
       <hgroup>
-        <h1 class="home"><a href="index.html" rel="author">Cherry Tree Cooks</a></h1>
+        <h1><a href="/" rel="author">Cherry Tree Cooks</a></h1>
         <p>Empowering individuals through culinary skills</p>
+      </hgroup>
+      <label for='menu' tabindex="0">&#9776;</label>
+      <input id='menu' type='checkbox' />
       <nav>
         <ul>
             <li><a href="#our-services">Our services</a></li>
@@ -25,9 +28,12 @@
     <main>
         <section id="intro">
           <div>
-            <h1>Cherry Tree Cooks</h1>
-            <p>Cherry Tree is a family-run business with a noble mission: to teach people with autism and intellectual disabilities how to cook in a safe, supportive, and kind environment.</p>
-            <img src="images/ndis-registered-provider.svg" alt="NDIS registered provider" />
+            <img class="logo" src="/images/cherry-tree-logo.png" alt="Cherry Tree logo" />
+            <div class="info">
+              <h1>Cherry Tree Cooks</h1>
+              <p>Cherry Tree is a family-run business with a noble mission: to teach people with autism and intellectual disabilities how to cook in a safe, supportive, and kind environment.</p>
+              <img class="ndis" src="/images/ndis-registered-provider.svg" alt="NDIS registered provider" />
+            </div>
           </div>
         </section>
         <section id="our-services">
@@ -37,34 +43,40 @@
               <div class="service">
                 <img src="images/icons/cooking-classes.png" alt="" />
                 <h3>Cooking classes</h3>
-                <p>
-                  Beginner friendly cooking classes<br />
-                  Learn to cook for yourself<br />
-                  Hands on &ndash; everybody cooks<br />
-                  Expert trainers<br />
-                  1:1 private class or group classes<br />
-                  All ingredients and utensils provided<br />
-                  Western Sydney location
-                </p>
+                <p>Beginner friendly cooking classes</p>
+                <ul>
+                  <li>Learn to cook for yourself</li>
+                  <li>1:1 private class or group classes</li>
+                  <li>All ingredients and utensils provided</li>
+                  <li>Hands on &ndash; everybody cooks</li>
+                  <li>Expert trainers</li>
+                  <li>Western Sydney location</li>
+                </ul>
               </div>
               <div class="service">
                 <img src="images/icons/food-safety.png" alt="" />
                 <h3>Food safety</h3>
-                <p>
-                  Introductory 1 hour staff training for organisations covering the 5 key areas of food safety.<br />
-                  Hands on and interactive<br />
-                  Simple English handouts<br />
-                  Group bookings only<br />
-                  Trainer has 17 years experience teaching Food Safety
-                </p>
+                <p>Introductory 1 hour staff training for organisations</p>
+                <ul>
+                  <li>We cover the 5 key areas of food safety</li>
+                  <li>Hands on and interactive</li>
+                  <li>Simple English handouts</li>
+                  <li>Group bookings only</li>
+                  <li>Trainer has 17 years experience teaching Food Safety</li>
+                </ul>
               </div>
               <div class="service">
                 <img src="images/icons/coffee.png" alt="" />
                 <h3>Coffee training</h3>
-                <p>We teach coffee extraction, milk texturising, and 11 coffees from the coffee menu.</p>
+                <p>Barrista training for small groups</p>
+                <ul>
+                  <li>coffee extraction</li>
+                  <li>milk texturising</li>
+                  <li>11 coffees from the coffee menu</li>
+                </ul>
               </div>
             </div>
-            <p><a href="#contact-us">Get in touch</a></p>
+            <p><a href="#contact-us" class="pressable">Enquire now!</a></p>
           </div>
         </section>
 
@@ -76,7 +88,7 @@
             <p>At Cherry Tree, we provide a secure and engaging space where participants can thrive, socialise, and learn essential cooking skills. Our classes are tailored to promote confidence and independence, covering fundamental skills such as knife handling, reading and following recipes, and safely using various cooking utensils. Participants also learn about the six essential nutrients and the five food groups, empowering them to prepare healthy meals for themselves. Our goal is to help them develop new skills, gain independence, and even acquire competencies that could lead to job opportunities.</p>
             <h3>Founders Dedicated to Inclusivity</h3>
             <figure>
-              <img src="images/photos/TheTeam.jpg" alt="" />
+              <img src="images/photos/TheTeam.jpg" loading="lazy" alt="" />
               <figcaption>Jenny and Phil</figcaption>
             </figure>
             <p>Cherry Tree's inclusive cooking classes were founded by Jenny and Phil, a dedicated mother-in-law and son-in-law team. They are committed to celebrating diversity, inclusion, and individual differences.</p>
@@ -95,11 +107,11 @@
             <h2>Photo gallery</h2>
             <div class="gallery">
               <div class="pics">
-                <div id="pic-1"><img src="images/photos/Teaching.jpg" alt=""></div>
-                <div id="pic-2"><img src="images/photos/HandsOn.jpg" alt=""></div>
-                <div id="pic-3"><img src="images/photos/ActionShot.png" alt=""></div>
-                <div id="pic-4"><img src="images/photos/CoffeeClasses.jpg" alt=""></div>
-                <div id="pic-5"><img src="images/photos/BusinessCard.jpg" alt=""></div>
+                <div id="pic-1"><img src="images/photos/Teaching.jpg" loading="lazy" alt=""></div>
+                <div id="pic-2"><img src="images/photos/HandsOn.jpg" loading="lazy" alt=""></div>
+                <div id="pic-3"><img src="images/photos/ActionShot.png" loading="lazy" alt=""></div>
+                <div id="pic-4"><img src="images/photos/CoffeeClasses.jpg" loading="lazy" alt=""></div>
+                <div id="pic-5"><img src="images/photos/BusinessCard.jpg" loading="lazy" alt=""></div>
               </div>
               <a href="#pic-1">1</a>
               <a href="#pic-2">2</a>
@@ -113,7 +125,7 @@
         <section id="testimonials">
           <div>
             <h2>Testimonials</h2>
-            <p>We extend our heartfelt thanks &hellip; especially Jenny and Phil, for giving our students the valuable opportunity to learn new skills that will aid them in their future employment. We are deeply grateful to everyone involved for the kindness shown to our students. You are all truly amazing, and the community is blessed to have such wonderful people supporting them. God bless you all. &mdash; <em>Holy Spirit Catholic College</em></p>
+            <p>We extend our heartfelt thanks &hellip; especially Jenny and Phil, for giving our students the valuable opportunity to learn new skills that will aid them in their future employment. We are deeply grateful to everyone involved for the kindness shown to our students. You are all truly amazing, and the community is blessed to have such wonderful people supporting them. God bless you all.<br />&mdash; <em>Holy Spirit Catholic College</em></p>
           </div>
         </section>
 
@@ -131,20 +143,22 @@
                 <label>Message: <textarea name="message" rows="5"></textarea></label>
               </p>
               <p>
-                <button type="submit">Send</button>
+                <button type="submit" class="pressable">Send</button>
               </p>
             </form>
+            <hr />
+            <ul class="alt-contact">
+              <li><a class="email" href="mailto:info@cherrytreecooks.com">Email: info@cherrytreecooks.com</a></li>
+              <li><a class="sms" href="tel:+61449291145">SMS: 0449 291 145</a></li>
+              <li><a class="insta" href="https://www.instagram.com/cherrytreecooks">Instagram</a></li>
+            </ul>
           </div>
         </section>
 
     </main>
     <footer>
-      <a href="mailto:info@cherrytreecooks.com">Email: info@cherrytreecooks.com</a>
-      <a href="tel:+61449291145">SMS: 0449 291 145</a>
-      <a href="https://www.instagram.com/cherrytreecooks">Instagram</a>
       <p>&copy; Cherry Tree Cooks, 2025. All rights reserved.</p>
-      <p><div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div></p>
-      <img src="images/ndis-registered-provider.svg" alt="NDIS registered provider" />
+      <small>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></small>
     </footer>
   </body>
 </html>
