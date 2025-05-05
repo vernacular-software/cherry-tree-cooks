@@ -75,6 +75,28 @@ img {
     max-width: 100%;
 }
 
+/* Services cards */
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.service {
+    flex: 1;
+    min-width: 20ch;
+    border: solid 2px oklch(from var(--blue) 0.4 c h);
+    border-radius: .5rem;
+    background: oklch(from var(--blue) 0.9 c h);
+    padding: 1rem;
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 /* Form styles */
 label {
     display: block;
