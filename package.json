@@ -1,0 +1,20 @@
+{
+  "name": "cherry-tree-cooks-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build-css": "postcss --no-map --verbose --use autoprefixer postcss-nested postcss-css-variables @csstools/postcss-oklab-function cssnano -o main.css styles/*.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@csstools/postcss-oklab-function": "^4.0.9",
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.7",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "postcss-css-variables": "^0.19.0",
+    "postcss-nested": "^7.0.2"
+  }
+}

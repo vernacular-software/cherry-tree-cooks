@@ -73,11 +73,12 @@ header {
     align-items: center;
 
     hgroup {
-        flex: 1 0 content;
+        flex: 1 1 85%;
 
         h1, p {
             margin: 0;
             padding: 0;
+            text-wrap: balance;
         }
     }
 
@@ -97,7 +98,7 @@ nav ul {
     gap: 1rem;
 
     & > li {
-        flex: 1 0 content;
+        flex: 0 0 content;
         flex-wrap: wrap-reverse;
         text-wrap: nowrap;
     }
@@ -112,8 +113,12 @@ nav ul {
         flex-direction: row;
         flex-wrap: wrap;
 
+        padding: .5rem 1rem;
+
+        hgroup { font-size: .8rem; }
+
         label {
-            flex: 1;
+            flex: 1 0 15%;
             display: block;
             text-align: end;
             font-size: 2rem;
@@ -124,7 +129,7 @@ nav ul {
         }
 
         nav {
-        flex: 0 0 100%;
+        flex-basis: 100%;
         margin-left: 0;
         margin-right: 0;
 
@@ -169,7 +174,7 @@ nav ul {
         h1 {
             font-size: 2.25rem;
             margin: 0;
-            text-wrap: nowrap;
+            line-height: .9;
         }
     }
 }
