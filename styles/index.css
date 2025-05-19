@@ -43,6 +43,18 @@ header, footer {
 
 footer {
     text-align: center;
+
+    ul.documents {
+        list-style: none;
+
+        li {
+            display: inline-block;
+        }
+
+        li:nth-of-type(n+2)::before {
+            content: ' ◆ '
+        }
+    }
 }
 
 figcaption {
