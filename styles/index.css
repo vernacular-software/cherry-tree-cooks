@@ -46,13 +46,11 @@ footer {
 
     ul.documents {
         list-style: none;
+        padding: 0;
 
         li {
             display: inline-block;
-        }
-
-        li:nth-of-type(n+2)::before {
-            content: ' ◆ '
+            margin: 0 1rem;
         }
     }
 }
