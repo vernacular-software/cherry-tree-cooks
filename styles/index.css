@@ -32,6 +32,18 @@ h2 {
     text-wrap: balance;
 }
 
+h3 {
+    font-size: 2rem;
+    text-wrap: balance;
+}
+
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-bottom: 1em;
+}
+
 /* Furniture */
 
 header,
